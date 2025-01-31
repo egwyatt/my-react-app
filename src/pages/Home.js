@@ -20,7 +20,7 @@ function Home({todos, setTodos, handleUpdate1, handleDelete}) {
 return (
  <div>
  {todos.map( (todo) => {
-// Dynamically apply a class based on todo's completion status
+
 const todoClass = todo.isComplete ? 'todo completed' : 'todo';
 
 
@@ -28,13 +28,13 @@ const todoClass = todo.isComplete ? 'todo completed' : 'todo';
  return (
     <div
     key={todo.todoId}
-    onClick={() => toggleComplete(todo.todoId)} // Strike-through when the div is clicked
+    onClick={() => toggleComplete(todo.todoId)} 
     className={`${todo.isComplete ? 'strikeThru' : ''}`}
 >
     
 <div className="todo-container">
     {todo.todo},
-    {/* Delete button with event propagation stop */}
+    {/*  propagation stop */}
     <button onClick={(e) => handleDeleteClick(e, todo.todoId)}>Delete</button>
     
     </div>
