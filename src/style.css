@@ -80,3 +80,27 @@ form {
 #hidden {
     display: none;
   }
+
+ @media (max-width: 480px) {
+      .Layout1, .Layout2, .Layout3 {
+          width: 50%;
+          font-size: 14px; 
+      }
+      
+      .Layout1 {
+          padding: 5px;
+          margin: 10px; 
+      }
+      
+      .Layout2 {
+          margin-left: 5px;
+          padding: 5px;
+          
+          
+      }
+      
+      .Layout3 {
+          padding: 5px;
+          margin: 5px;
+      }
+    }
