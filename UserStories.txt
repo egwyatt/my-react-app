@@ -1,3 +1,3 @@
-As a Todo website user I want to add a Todo to the Todo list so that I can remember to complete the Todo. 
-As a Todo website user I want to strike through a completed Todo so that I can keep track of the Todos I have completed.
-As Todo webiste user I want to delete a todo so that I will be rid of a Todo that I no longer need to keep track of.
+As a cook, I want to add a, "Buy tomatoes" Todo to the Todo list so that I can remember to buy tomatoes. 
+As an event planner, I want to strike through the completed Todo, "get wedding cake", so that I can keep track of all the Todos I have left uncompleted in prepartaion for a wedding I'm planing.
+As a busy mom I want to delete a todo so that I will be rid of a Todo that I no longer need to keep track of.
